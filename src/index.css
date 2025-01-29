@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@utility buttonShadow {
+    @apply box-shadow: 0 0 10px #27c5f5 .transititon-3s ease-in-out;
+}
+.transititon-3s {
+    transition: all 0.3s;
+}
